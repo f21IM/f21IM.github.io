@@ -50,7 +50,6 @@ h1{
 h2{
     color: rgb(230, 136, 60);
     font-size: 26pt;
-    margin-bottom: 2px;
 }
 
 
@@ -182,6 +181,11 @@ nav li{
     justify-content: center;
     margin-left: 10pt;
 }
+
+.comboHeader h2{
+    margin-bottom: -7px;
+}
+
 .plakat{
     max-height: 1080px;
     max-width: 100%;
@@ -220,7 +224,14 @@ nav li{
     .hvorforContainer {
       grid-template-columns: 1fr;
     }
-  }
+    .comboHeader h1, h2{
+        font-size: 30px;
+    }
+    .comboHeader h2{
+        margin-bottom: -2px;
+    }
+}
+
 .hvorforContainer img{
     margin: auto;
 }
