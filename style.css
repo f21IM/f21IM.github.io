@@ -236,3 +236,17 @@ nav li{
 .hvorforContainer h2{
     font-size: 23pt;
 }
+
+#progress{
+    background-color: rgb(230, 136, 60);
+    display: block;
+    height: 5pt;
+    width: 0%;
+    margin-top: -3pt;
+
+}
+#karusell{
+    max-width: 450px;
+    margin: auto;
+    margin-bottom: 5pt;
+}
