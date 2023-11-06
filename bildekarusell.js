@@ -1,7 +1,7 @@
 /*
 Bruk av bildekarusell
 bildene må navngis slik: album#.jpg
-eks:    tur1.jpg tur2.jpg tur3.jpg osv
+eks:    tur1.jpg tur2.jpg tur3.jpg
         da skal album settes til "tur"
         og bilder settes til 3
 Første bildet må begynne med 1, ikke 0
