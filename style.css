@@ -217,6 +217,11 @@ nav li{
 
 }
 
+.forsideVideoer {
+    width: 240px;
+    height: 157px;
+}
+
 @media (max-width: 560px) {
     .hvorforContainer {
       grid-template-columns: 1fr;
@@ -245,8 +250,14 @@ nav li{
     margin-top: -3pt;
 
 }
+
 #karusell{
     max-width: 450px;
     margin: auto;
     margin-bottom: 5pt;
+}
+
+.forsideVideoer{
+    width: 480px;
+    height: 315px;
 }
