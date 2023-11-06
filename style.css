@@ -196,9 +196,8 @@ nav li{
     border-top: 4px solid black;
     border-bottom: 4px solid black;
     display: inline-block;
-    margin-top: 80pt;
+    margin-top: 10svh;
     padding: 20pt; 
-    filter:blur()
 }
 .dim{
     width: 100%;
