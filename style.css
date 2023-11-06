@@ -220,6 +220,11 @@ nav li{
 
 }
 
+.forsideVideoer {
+    width: 240px;
+    height: 157px;
+}
+
 @media (max-width: 560px) {
     .hvorforContainer {
       grid-template-columns: 1fr;
@@ -238,4 +243,9 @@ nav li{
 
 .hvorforContainer h2{
     font-size: 23pt;
+}
+
+.forsideVideoer{
+    width: 480px;
+    height: 315px;
 }
