@@ -213,8 +213,8 @@ nav li{
     padding: 10pt;
     gap:10pt;
 }
-.gridItem{
-
+.hvorforContainer p{
+    margin-top: 6pt;
 }
 
 .forsideVideoer {
@@ -226,6 +226,7 @@ nav li{
     .hvorforContainer {
       grid-template-columns: 1fr;
     }
+
     .comboHeader h1, h2{
         font-size: 30px;
     }
@@ -240,6 +241,10 @@ nav li{
 
 .hvorforContainer h2{
     font-size: 23pt;
+}
+
+.gridItem{
+    margin:auto
 }
 
 #progress{
