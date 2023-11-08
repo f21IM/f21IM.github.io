@@ -12,6 +12,20 @@ b, p{
     text-align: left;
 }
 
+.responsive-iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+.phone{
+    margin: auto;
+    margin-bottom: 15pt;
+    padding: 10pt;
+    padding-top: 10pt;
+    display: block;
+    max-width: 70%;
+}
+
 img{
     max-width: 100%;
     max-height: 360px;
