@@ -187,6 +187,10 @@ nav li{
     max-height: 1080px;
     max-width: 100%;
 }
+.plakatCrop{ /* midlertidig*/
+    max-height: 650px;
+    max-width: 100%;
+}
 .velkommen{
     background-image: url("bilder/Jonis.jpg");
     background-size: cover;
