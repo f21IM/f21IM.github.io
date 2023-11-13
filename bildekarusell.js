@@ -1,5 +1,5 @@
 /*
-Bruk av bildekarusell
+Bruk av bildekarusell:
 bildene må navngis slik: album#.jpg
 eks:    tur1.jpg tur2.jpg tur3.jpg
         da skal album settes til "tur"
