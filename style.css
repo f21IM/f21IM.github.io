@@ -293,6 +293,11 @@ nav li {
     margin: auto
 }
 
+.brosjyre{
+    box-shadow: 0px 0px 15px 2px black;
+    margin-bottom: 15pt;
+}
+
 #progress {
     background-color: rgb(230, 136, 60);
     display: block;
