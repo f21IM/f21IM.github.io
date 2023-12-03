@@ -303,11 +303,15 @@ nav li {
 }
 
 #karusell {
-    max-width: 450px;
+    max-width: 80%;
     margin: auto;
     margin-bottom: 5pt;
 }
 
+#karusellbilde{
+    width: 100%;
+    max-height: none;
+}
 
 .forsideVideoer {
     width: 480px;
