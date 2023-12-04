@@ -230,7 +230,7 @@ nav li {
 .velkommen {
     background-image: url("bilder/Jonis.jpg");
     background-size: cover;
-    height: 300px;
+    height: 215pt;
 
 }
 
@@ -238,7 +238,7 @@ nav li {
     border-top: 4px solid black;
     border-bottom: 4px solid black;
     display: inline-block;
-    margin-top: 100px;
+    margin-top: 70pt;
     padding: 20pt;
     backdrop-filter: blur(2px);
 }
