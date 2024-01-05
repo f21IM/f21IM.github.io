@@ -295,7 +295,7 @@ nav li {
     margin: auto
 }
 
-.brosjyre{
+.brosjyre {
     box-shadow: 0px 0px 15px 2px black;
     margin-bottom: 15pt;
 }
@@ -315,7 +315,7 @@ nav li {
     margin-bottom: 5pt;
 }
 
-#karusellbilde{
+#karusellbilde {
     width: 100%;
     max-height: none;
 }
@@ -335,11 +335,14 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    flex: 1;
+    text-align: center;
+    border-left: 3px solid rgba(255, 255, 255, 0.1);
+    border-right: 3px solid rgba(255, 255, 255, 0.1);
 }
 
 nav ul li a {
@@ -347,12 +350,25 @@ nav ul li a {
     color: white;
     font-size: 1em;
     padding: 5px 10px;
+    display: block;
+    position: relative;
 }
 
-nav ul li a:hover {
-    background-color: #555;
-    color: #fff;
-    border-radius: 5px;
+nav ul li a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background: transparent;
+    transition: width 0.3s ease, background-color 0.3s ease;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+    background-color: rgb(230, 136, 60);
 }
 
 @media screen and (max-width: 600px) {
