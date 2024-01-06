@@ -377,3 +377,11 @@ nav ul li a:hover::after {
         margin-bottom: 5px;
     }
 }
+
+iframe {
+    border: 3px solid rgb(230, 136, 60);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    height: 500px;
+}
