@@ -386,3 +386,15 @@ iframe {
     width: 90%;
     height: 500px;
 }
+
+.flashy{
+    animation: colorCycle 3s infinite;
+    color: black;
+}
+
+@keyframes colorCycle {
+    0% { background-color: rgb(230, 136, 60); }
+    50% { background-color: white; box-shadow:0pt 0pt 5pt 0pt white ;}
+    100% { background-color: rgb(230, 136, 60); }
+}
+
