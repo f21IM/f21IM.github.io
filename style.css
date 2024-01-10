@@ -140,14 +140,15 @@ nav li {
 }
 
 .ramme {
-    border: 4pt solid rgb(136, 150, 239);
-    background-color: white;
+    border: 4pt solid rgba(136, 150, 239,0);
+    background-color: rgba(255, 255, 255, 0.268);
     margin: auto;
     margin-bottom: 15pt;
     padding: 10pt;
     padding-top: 10pt;
     display: block;
     max-width: 575px;
+    border-radius: 1rem;
 
 }
 
