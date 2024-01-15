@@ -1,3 +1,6 @@
+:root{
+    --highlight: rgb(230, 136, 60);
+}
 body {
     background-image: url("bilder/bakgrunn.jpg");
     background-attachment: fixed;
@@ -71,7 +74,7 @@ h1 {
 }
 
 h2 {
-    color: rgb(230, 136, 60);
+    color: var(--highlight);
     font-size: 26pt;
 }
 
@@ -98,25 +101,7 @@ h2 {
 
 }
 
-@media (max-width: 590px) {
-    .top {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
 
-    .logo {
-        max-width: 100%;
-        margin: 0;
-        float: none;
-    }
-
-    .knapp {
-        margin: 10px 0;
-        float: none;
-    }
-}
 
 
 
@@ -145,6 +130,29 @@ b {
 .boks h1 {
     font-size: 35px;
     margin-bottom: .67em;
+}
+
+@media (max-width: 590px) {
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo {
+        max-width: 100%;
+        margin: 0;
+        float: none;
+    }
+
+    .knapp {
+        margin: 10px 0;
+        float: none;
+    }
+    .boks{
+        background-color: rgba(0,0,0,0);
+    }
 }
 
 nav ul {
@@ -189,7 +197,7 @@ nav li {
 }
 
 .ramme p {
-    color: rgb(230, 136, 60);
+    color: var(--highlight);
     text-decoration: underline;
     line-height: 19pt;
 }
@@ -327,7 +335,7 @@ nav li {
 }
 
 #progress {
-    background-color: rgb(230, 136, 60);
+    background-color: var(--highlight);
     display: block;
     height: 5pt;
     width: 0%;
@@ -394,7 +402,7 @@ nav ul li a::after {
 
 nav ul li a:hover::after {
     width: 100%;
-    background-color: rgb(230, 136, 60);
+    background-color: var(--highlight);
 }
 
 @media screen and (max-width: 600px) {
@@ -404,8 +412,10 @@ nav ul li a:hover::after {
     }
 }
 
+
+
 iframe {
-    border: 3px solid rgb(230, 136, 60);
+    border: 3px solid var(--highlight);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 90%;
@@ -418,8 +428,8 @@ iframe {
 }
 
 @keyframes colorCycle {
-    0% { background-color: rgb(230, 136, 60); }
+    0% { background-color: var(--highlight); }
     50% { background-color: white; box-shadow:0pt 0pt 5pt 0pt white ;}
-    100% { background-color: rgb(230, 136, 60); }
+    100% { background-color: var(--highlight); }
 }
 
