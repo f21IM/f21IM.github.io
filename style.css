@@ -437,3 +437,13 @@ iframe {
     100% { background-color: var(--highlight); }
 }
 
+.avvik{
+    background-color: rgb(255, 136, 136);
+    border: solid rgb(250, 71, 71) 2px;
+    padding: 5pt;
+}
+
+.avvik p{
+    color: black;
+    margin: 0pt;
+}
