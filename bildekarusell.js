@@ -10,6 +10,7 @@ HTML setup:
                 <img src="" id="karusellbilde">
                 <div id="progress"></div>
             </div>
+
 */
 
 const karusell = document.getElementById("karusell")
