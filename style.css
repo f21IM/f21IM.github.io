@@ -5,12 +5,32 @@ body {
     background-image: url("bilder/bakgrunn.jpg");
     background-attachment: fixed;
     background-size: cover;
-    margin-top: 0pt;
-    margin-bottom: 0pt;
     background-position: center top;
-    margin-top: 0pt;
-    margin-bottom: 0pt;
+    margin: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    display: flex;
+    align-items: center;        /* vertical centering */
+    justify-content: center;    /* horizontal centering */
+    height: 100vh;
+}
+
+
+
+.innhold {
+    background-image: url("bilder/concrete-wall_535353.png");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 40pt;
+    border-radius: 2rem;
+    text-align: center;
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.486);
+}
+
+.innhold p,
+b {
+    text-align: left;
+    margin: 20pt;
 }
 
 b,
@@ -24,20 +44,6 @@ h4 {
 b,
 p {
     text-align: left;
-}
-
-.responsive-iframe {
-    max-width: 100%;
-    height: auto;
-}
-
-.phone {
-    margin: auto;
-    margin-bottom: 15pt;
-    padding: 10pt;
-    padding-top: 10pt;
-    display: block;
-    max-width: 70%;
 }
 
 img {
@@ -82,20 +88,6 @@ h2 {
     font-size: 26pt;
 }
 
-
-.main {
-    max-width: 700pt;
-    margin: auto;
-    text-align: center;
-    box-shadow: 0pt 20pt 50pt 10pt;
-
-}
-
-.top {
-    background-color: #333333;
-    padding-top: 20pt;
-}
-
 .logo {
     margin-left: 20pt;
     max-width: 80%;
@@ -105,22 +97,6 @@ h2 {
 
 }
 
-
-
-
-
-.innhold {
-    background-image: url("bilder/concrete-wall_535353.png");
-    background-size: cover;
-    background-attachment: fixed;
-    padding-bottom: 20pt;
-}
-
-.innhold p,
-b {
-    text-align: left;
-    margin: 20pt;
-}
 
 .boks {
     background-color: rgb(39, 39, 39);
@@ -137,12 +113,6 @@ b {
 }
 
 @media (max-width: 590px) {
-    .top {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
 
     .logo {
         max-width: 100%;
@@ -157,53 +127,6 @@ b {
     .boks{
         background-color: rgba(0,0,0,0);
     }
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: table;
-    width: 100%;
-    flex-wrap: wrap;
-}
-
-nav li {
-    display: table-cell;
-    margin: 0;
-    padding: 0.5em;
-    text-align: center;
-}
-
-.ramme {
-    border: 4pt solid rgba(136, 150, 239,0);
-    background-color: rgba(255, 255, 255, 0.268);
-    margin: auto;
-    margin-bottom: 15pt;
-    padding: 10pt;
-    padding-top: 10pt;
-    display: block;
-    max-width: 575px;
-    border-radius: 1rem;
-
-}
-
-.ramme b {
-    color: black;
-    font-size: 20px;
-    line-height: 40pt;
-    font-weight: bold;
-}
-
-.ramme h3 {
-    color: black;
-}
-
-.ramme p {
-    color: var(--highlight);
-    text-decoration: underline;
-    line-height: 19pt;
 }
 
 .knapp {
@@ -227,84 +150,6 @@ nav li {
     float: none;
 }
 
-.footer {
-    text-align: left;
-    margin: 0pt;
-    background-color: rgba(0, 0, 0, 0.65);
-    padding-bottom: 20pt;
-}
-
-.footer b {
-    margin: 0pt;
-}
-
-.footer h4 {
-    text-decoration: underline;
-    padding-top: 10pt;
-    margin-top: 0pt;
-}
-
-.comboHeader {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 10pt;
-}
-
-.comboHeader h2 {
-    margin-bottom: -7px;
-}
-
-.plakat {
-    max-height: 1080px;
-    max-width: 100%;
-}
-
-.plakatCrop {
-    /* midlertidig*/
-    max-height: 650px;
-    max-width: 100%;
-}
-
-.velkommen {
-    background-image: url("bilder/Jonis.jpg");
-    background-size: cover;
-    height: 215pt;
-
-}
-
-.velkommen b {
-    border-top: 4px solid black;
-    border-bottom: 4px solid black;
-    display: inline-block;
-    margin-top: 70pt;
-    padding: 20pt;
-    backdrop-filter: blur(2px);
-}
-
-.dim {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-
-}
-
-.hvorforContainer {
-    padding-top: 10pt;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 10pt;
-    gap: 10pt;
-}
-
-.hvorforContainer p {
-    margin-top: 6pt;
-}
-
-.forsideVideoer {
-    width: 240px;
-    height: 157px;
-}
 
 @media (max-width: 560px) {
     .hvorforContainer {
@@ -321,130 +166,3 @@ nav li {
     }
 }
 
-.hvorforContainer img {
-    margin: auto;
-}
-
-.hvorforContainer h2 {
-    font-size: 23pt;
-}
-
-.gridItem {
-    margin: auto
-}
-
-.brosjyre {
-    box-shadow: 0px 0px 15px 2px black;
-    margin-bottom: 15pt;
-}
-
-#progress {
-    background-color: var(--highlight);
-    display: block;
-    height: 5pt;
-    width: 0%;
-    margin-top: -3pt;
-
-}
-
-#karusell {
-    max-width: 80%;
-    margin: auto;
-    margin-bottom: 5pt;
-}
-
-#karusellbilde {
-    width: 100%;
-    max-height: none;
-}
-
-.forsideVideoer {
-    width: 480px;
-    height: 315px;
-}
-
-nav {
-    background-color: #333;
-    text-align: center;
-    padding: 10px 0;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-nav ul li {
-    flex: 1;
-    text-align: center;
-    border-left: 3px solid rgba(255, 255, 255, 0.1);
-    border-right: 3px solid rgba(255, 255, 255, 0.1);
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 1em;
-    padding: 5px 10px;
-    display: block;
-    position: relative;
-}
-
-nav ul li a::after {
-    content: '';
-    display: block;
-    height: 2px;
-    width: 0;
-    background: transparent;
-    transition: width 0.3s ease, background-color 0.3s ease;
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-}
-
-nav ul li a:hover::after {
-    width: 100%;
-    background-color: var(--highlight);
-}
-
-@media screen and (max-width: 600px) {
-    nav ul li {
-        display: block;
-        margin-bottom: 5px;
-    }
-}
-
-
-
-iframe {
-    border: 3px solid var(--highlight);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 90%;
-    height: 500px;
-}
-
-.flashy{
-    animation: colorCycle 3s infinite;
-    color: black;
-}
-
-@keyframes colorCycle {
-    0% { background-color: var(--highlight); }
-    50% { background-color: white; box-shadow:0pt 0pt 5pt 0pt white ;}
-    100% { background-color: var(--highlight); }
-}
-
-.avvik{
-    background-color: rgb(136, 178, 255);
-    border: solid rgb(10, 124, 255) 2px;
-    padding: 5pt;
-}
-
-.avvik p{
-    color: black;
-    margin: 0pt;
-    font-size: medium;
-}
